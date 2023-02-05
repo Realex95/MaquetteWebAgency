@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devoir Final</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://kit.fontawesome.com/7ccfb9b551.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"> </script>
+</head>
+
+<body>
+    <header class="d-flex justify-content-between">
+        <div>
+            <img class="m-10 m-100pleft logo" src="images/logo.png" alt="Logo webagency">
+        </div>
+        <nav class="menu m-20pright">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <a href="#" id="icon">&#9776</a>
+          </nav>
+    </header>
+    <main>
+        <div class="banner white">
+            <div class="padding-banner">
+                <h1 class="upper"> <span>webagency</span>nous réalisions vos rêves</h1>
+                <p>Les meilleurs professionnels à votre service</p>
+                <input class="white" type="submit" value="Plus d'infos">
+                <div>
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+        </div>
+        <div class="text-align p-top5p">
+            <h2 class="upper ">Nos services</h2>
+            <div>
+                <hr class="w-3 d-inline-bloc">
+                <i class="fa-solid fa-circle blue s-15"></i>
+                <hr class="w-3 d-inline-bloc">
+            </div>
+            <p class="m-25p p-top20 p-responsive">Parce que vous êtes uniques, nous nous adaptions à vos besoins et à vos envies.
+                Notre plus grande qualité est l'écoute, et nous nous engageons à vous livrer un site web qui vous
+                ressemble.</p>
+            <div class="container">
+                <div class="block-1">
+                    <img class="w-100" src="images/main-feature.png" alt="photo d'un ordinateur">
+                </div>
+                <div class="block-2  p-top20 m-20 d-flex flex-column space-evently flex-start">
+                    <div class="d-inline-flex items-center">
+                        <i class="fa-solid fa-chart-line border-radius25 p-20 blue f-size20">
+                            <i class="fa-solid fa-circle blue position-absolu f-size10 placement"></i>
+                        </i>
+                        <div class="d-flex flex-column flex-start p-left30">
+                            <h3 class="m0 m-bottom-15">UX design</h3>
+                            <p class="text-align-left">Nous pensons et concevons votre site web de manière à vous délivrer la meilleur expérience utilisateur possible.</p>
+                        </div>
+                    </div>
+                    <div class="d-inline-flex items-center ">
+                        <i class="fa-solid fa-cubes border-radius25 p-20 blue f-size20">
+                            <i class="fa-solid fa-circle blue position-absolu f-size10 placement"></i>
+                        </i>
+                        <div class="d-flex flex-column flex-start p-left30">
+                            <h3 class="m0 m-bottom-15">UI design</h3>
+                            <p class="text-align-left">Nous sommes à l'écoute de vos envies et nous nous engageons à vous délivrer une interface utilisateur de qualité.</p>
+                        </div>
+                    </div>
+                    <div class="d-inline-flex items-center">
+                        <i class="fa-solid fa-chart-pie border-radius25 p-20 blue f-size20">
+                            <i class="fa-solid fa-circle blue position-absolu f-size10 placement"></i>
+                        </i>
+                        <div class="d-flex flex-column flex-start p-left30">
+                            <h3 class="m0 m-bottom-15">SEO</h3>
+                            <p class="text-align-left">Nous optimisons la visibilité de votre site web dans les pages de résultats des moteurs de recherche.</p>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+            <div class="text-align whitesmoke p-100">
+                <h2 class="upper ">Nos projets</h2>
+                <div>
+                    <hr class="w-3 d-inline-bloc">
+                    <i class="fa-solid fa-circle blue s-15"></i>
+                    <hr class="w-3 d-inline-bloc">
+                </div>
+                <p class="m-25p p-top20 p-responsive">Ils nous ont fait confiance et l'ont pas regretté!</p>
+                <p class="m-25p">Voyez par vous même</p>
+                <div class="projet">
+                    <ul class="d-flex center">
+                        <li>
+                            <a class="continer lightgrey p-10" href="index.html">All works</a>
+                            <div class="triangle">
+                                <i class="fa-solid fa-caret-down"></i>  
+                            </div>
+                        </li>
+                        <li><a class="continer lightgrey p-10" href="index.html">Creative</a></li>
+                        <li><a class="continer lightgrey p-10" href="index.html">Corporate</a></li>
+                        <li><a class="continer lightgrey p-10" href="index.html">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="d-grid template-column p-top20 margin-left margin-right">
+                    <a href="">
+                        <img class="width-85 h-150 p-bottom imgHeight " src="images/01.jpg" alt="photo 1">
+                    </a>
+                    <a href="">
+                        <img class="width-85 h-150 p-bottom imgHeight" src="images/02.jpg" alt="photo 1">
+                    </a>
+                    <a href="">
+                        <img class="width-85 h-150 p-bottom imgHeight" src="images/03.jpg" alt="photo 1">
+                    </a>
+                    <a href="">
+                        <img class="width-85 h-150 p-bottom imgHeight" src="images/04.jpg" alt="photo 1">
+                    </a>
+                    <a href="">
+                        <img class="width-85 h-150 p-bottom imgHeight" src="images/05.jpg" alt="photo 1">
+                    </a>
+                    <a href="">
+                        <img class="width-85 h-150 p-bottom imgHeight" src="images/06.jpg" alt="photo 1">
+                    </a>
+                </div>
+                <div class="d-grid template-column-bas p-responsive p-top20 margin-left margin-right">
+                    <a class="g-column" href="">
+                        <img class="width-85 h-150 p-bottom imgHeight" src="images/07.jpg" alt="photo 1">
+                    </a>
+                    <a href="">
+                        <img class="width-85 h-150 p-bottom imgHeight" src="images/08.jpg" alt="photo 1">
+                    </a>
+                    <a href="">
+                        <img class="width-85 h-150 p-bottom imgHeight" src="images/09.jpg" alt="photo 1">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="map">
+            <form class="formulaire">
+                <h3>Contact Info</h3>
+                <div>
+                    <p class="bold">WebAgency SAS</p>
+                    <p>25 rue d'Hauteville 75010 Paris</p>
+                    <p>Tel : 01 02 03 04 05</p>
+                </div>
+                <input class="" type="text" id="name" name="name" placeholder="Name">
+                <input type="email" id="email" name="email" placeholder="Email">
+                <input type="text" id="subject" name="subject" placeholder="Subject">
+                <textarea type="text" id="text" name="text" placeholder="Message"></textarea>
+                <input class="submit white " type="submit" value="Send Message">
+            </form>
+            <iframe class="border0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2214246080493!2d2.347636915903355!3d48.87305530762768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25%20Rue%20d&#39;Hauteville%2C%2075010%20Paris!5e0!3m2!1sfr!2sfr!4v1675534650888!5m2!1sfr!2sfr"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </main>
+    <footer>
+        <div class="text-align">
+            <p class="white">© 2019 - Mention Légales</p>
+        </div>
+    </footer>
+</body>
+
+</html>
