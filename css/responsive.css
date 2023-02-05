@@ -104,8 +104,19 @@
     height: 30px;
     padding: 15px 0 0 0;
   }
-
+  .m-20pright {
+    margin-right: 5%;
+  }
+}
   @media screen and (max-width:500px) {
+    .fa-chevron-left {
+      top: 20%;
+    }
+  
+    .fa-chevron-right {
+      top: 20%;
+    }
+
     .p-responsive {
       padding-top: 20px;
       margin: 0 20px;
@@ -122,17 +133,11 @@
 
     .formulaire {
       position: relative;
-      width: 100%;
+      width: 90%;
       margin: auto;
     }
 
-    .formulaire input,
-    textarea {
-      margin: 0 8% 2% 0%;
+    .projet .center{
+      padding: 0;
     }
-
-    .m-20pright {
-      margin-right: 5%;
-  }
-  }
 }
