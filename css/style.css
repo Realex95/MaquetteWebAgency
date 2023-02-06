@@ -94,6 +94,10 @@ header {
     font-size: 15px;
 }
 
+.s-12{
+    font-size: 12px;
+}
+
 .upper{
     text-transform: uppercase;
 }
@@ -176,7 +180,28 @@ nav {
     color: black;
   }
 
-
+  .navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    color: black;
+  }
+  
+  .navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .navbar .icon {
+    display: none;
+  }
 /* --- Banner --- */
 
 .banner{
@@ -230,6 +255,10 @@ hr {
     padding-top: 5%;
 }
 
+.p0{
+    padding: 0;
+}
+
 /* --- Projet --- */
 
 .whitesmoke{
@@ -240,11 +269,31 @@ hr {
     justify-content: center;
 }
 
-.banderole a:hover::before{
-    background-color: #000;
-    color: #fff;
-    height: 40px;
-}
+.img-container {
+    position: relative; /* définit la position relative pour l'élément parent */
+  }
+
+  .image {
+    width: 100%; /* taille de l'image */
+  }
+
+  .background {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+    visibility: hidden;
+  }
+
+  .img-container:hover .background {
+    opacity: 1;
+    margin: 23% 7% 5% 7%;
+    visibility: visible;
+  }
 
 .p-left30{
     padding-left: 30px;
@@ -287,6 +336,14 @@ hr {
     visibility: visible;
     margin-bottom: -10px;
   }
+
+.placement-eye{
+    background: #5CADE0;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 10px;
+    margin: -11% 75%;
+}
 
 /* --- footer --- */
 footer {
