@@ -118,6 +118,20 @@
   }
 }
 
+@media screen and (min-width:750px) and (max-width: 900px){
+  .background {
+    padding: 5% 0px 0% 2%;
+  }
+
+  .img-container:hover .background {
+    margin: 17% 7% 2% 7%;
+  }
+
+  .placement-eye {
+    margin: -9% 0% 0% 80%;
+  }
+}
+
 @media screen and (max-width:500px) {
   .fa-chevron-left {
     top: 20%;
