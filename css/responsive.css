@@ -53,11 +53,11 @@
   }
 
   .fa-chevron-right {
-    top: 17%;
+    top: 20%;
   }
 
   .fa-chevron-left {
-    top: 17%;
+    top: 20%;
   }
 
   .p-right40p {
@@ -142,7 +142,7 @@
   }
 
   .p-responsive {
-    padding-top: 20px;
+    padding-top: 0;
     margin: 0 20px;
   }
 
