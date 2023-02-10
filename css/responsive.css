@@ -158,13 +158,6 @@
 
 
 @media screen and (max-width:500px) {
-  .fa-chevron-left {
-    top: 20%;
-  }
-
-  .fa-chevron-right {
-    top: 20%;
-  }
 
   .p-responsive {
     padding-top: 0;
