@@ -173,12 +173,6 @@ nav {
     font-size: 18px;
     display: block;
   }
-  
-  #icon {
-    display: none;
-    font-size: 35px;
-    color: black;
-  }
 
   .navbar a {
     float: left;
